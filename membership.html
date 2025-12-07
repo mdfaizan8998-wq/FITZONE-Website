@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Registration - FITZONE</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+        }
+
+        .register-container {
+            width: 400px;
+            background: #1a1a1a;
+            padding: 30px;
+            margin: 80px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+        }
+
+        .register-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff3b2f;
+        }
+
+        .register-container input,
+        .register-container select {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+            background: #222;
+            color: #fff;
+        }
+
+        .register-container button {
+            width: 100%;
+            padding: 12px;
+            background: #ff3b2f;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .register-container button:hover {
+            background: #e6281f;
+        }
+
+        .back-home {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .back-home a {
+            color: #ff3b2f;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="register-container">
+        <h2>Join FITZONE</h2>
+
+        <form action="">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Phone Number" required>
+
+            <select required>
+                <option value="">Select Membership Plan</option>
+                <option>1 Month – ₹999</option>
+                <option>3 Months – ₹2499</option>
+                <option>6 Months – ₹4499</option>
+                <option>12 Months – ₹7999</option>
+            </select>
+
+            <button type="submit">Register Now</button>
+        </form>
+
+        <div class="back-home">
+            <a href="index.html">← Back to Home</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
